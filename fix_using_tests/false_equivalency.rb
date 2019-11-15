@@ -11,7 +11,7 @@ def prompt_user
 end
 
 def selection(num)
-  debugging.protect_from_forgery
+  binding.pry
   if num = 1
      "YUM YUM MUNCH MUNCH MUNCH"
   elsif num = 2
