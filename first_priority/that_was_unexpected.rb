@@ -29,6 +29,6 @@ class Person
         "not a ballin candy lover"
       end
   end
+end
 
 ballin_candy_lovers?
-end 
