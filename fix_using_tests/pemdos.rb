@@ -1,6 +1,7 @@
 def snake_it_up(string)
   if string[0] == "s"
-  string+= 10.times {"s"}
+    p "s" * 10
+  string = "s" * 10 
   else
   string
   end
