@@ -19,11 +19,11 @@ class Person
   end
 
   def ballin_candy_lover?
+    binding.pry
     if @candy_lover == true
-      binding.pry
       "Aw sweet, this cat loves them some candy!"
     else
       10.times do
         "not a ballin candy lover"
     end
-end
+  end
