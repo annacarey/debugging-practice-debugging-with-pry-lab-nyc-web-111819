@@ -30,4 +30,5 @@ class Person
       end
   end
 
+ballin_candy_lovers?
 end 
